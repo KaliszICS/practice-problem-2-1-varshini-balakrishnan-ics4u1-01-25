@@ -5,9 +5,9 @@ public class PracticeProblem {
 		String[] strArray ={"apple", "banana", "cherry", "banana", "date"};
 		char[] charArray = {'a', 'b', 'c', 'a', 'd', 'a'};
 	}
-	public static inr find(int[] array, int number) {
-		for (int i = array.length - 1; i>= 0; i--) {
-			if (array[i].equals(string)) {
+	public static int find(int[] array, int number) {
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] == number) {
 				return i;
 			}
 		}
