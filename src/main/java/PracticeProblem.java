@@ -21,7 +21,7 @@ public class PracticeProblem {
 		}
 		return -1;
 	}
-	public static int findNext(char[] array, char character) {
+	public static int findSecond(char[] array, char character) {
 		int count = 0;
 		int firstIndex = -1;
 		for (int i = 0; i < array.length; i++) {
