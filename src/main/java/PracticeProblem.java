@@ -14,7 +14,7 @@ public class PracticeProblem {
 		return -1;
 	}
 	public static int findLast(String[] array, String string) {
-		for (int i = array.length - 1; i>= 0; i++) {
+		for (int i = array.length - 1; i>= 0; i--) {
 			if (array[i].equals(string)) {
 				return i;
 			}
